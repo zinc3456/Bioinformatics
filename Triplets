@@ -1,0 +1,5 @@
+X= "AAATTTGCTAGG"
+
+for i in range(len(X)):
+ if (i%3==0):
+   print X[i:i+3]

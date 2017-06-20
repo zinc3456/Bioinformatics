@@ -1,0 +1,8 @@
+X= "ATGAAATCAAAG"
+
+for i in range(len(X)):
+ if (i%3==0):
+   #print X[i:i+3]
+     if ([i:i+3]="ATG"):
+      print "M"    
+
