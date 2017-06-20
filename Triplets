@@ -1,2 +1,6 @@
 X= "AAATTTGCTAGG"
 
+for i in range(len(X)):
+ if (i%3==0):
+   print X[i], X[i+1], X[i+2]
+        
