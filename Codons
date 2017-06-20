@@ -1,4 +1,4 @@
-file =open("/share/data/mystery-seq")
+file =open("/share/data/mystery-seq2")
 X=file.readline()
 
 
