@@ -1,3 +1,6 @@
-file=open("h.aln")
+file=open("Secondmuscles","r")
 X=file.readlines()
-print X[0]
+s=""
+for i in range(len(X)):
+ s=s+X[i].strip()
+print s
