@@ -1,0 +1,30 @@
+X=open("/share/data/loginfo","r")
+LOGIN=X.readlines()
+s=""
+for i in range(len(LOGIN)):
+ s=s+LOGIN[i]
+#print s
+words=s.split()
+USERS={}
+USERS['words[0]']="True"
+USERS['words[2]']="True"
+USERS['words[4]']="True"
+USERS['words[6]']="True"
+USERS['words[8]']="True"
+USERS['words[10]']="True"
+PASS={}
+PASS['words[1]']="Tru"
+PASS['words[3]']="Tru"
+PASS['words[5]']="Tru"
+PASS['words[7]']="Tru"
+PASS['words[9]']="Tru"
+PASS['words[11]']="Tru"
+
+login = raw_input("Login: ")
+passwd = raw_input("Password: ")
+
+if (login==True):
+ user='true'
+  while (user=='true'):
+   passwordpasswd = raw_input("Password: ")
+

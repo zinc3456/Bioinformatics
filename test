@@ -1,0 +1,11 @@
+#login = raw_input("login: ")
+#passwd = raw_input("passwd: ")
+
+#print "your login and passwd are ", login, passwd
+S="world is flat"
+
+#words = S.split()
+
+#print words[0]
+#print words[1]
+#print words[2]

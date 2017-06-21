@@ -1,0 +1,8 @@
+file=open("foo","r")
+X=file.readlines()
+s=""
+for i in range(len(X)):
+   if (X[i]!='>'):
+       s=s+X[i].strip()
+print s
+
