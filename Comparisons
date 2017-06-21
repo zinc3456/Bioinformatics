@@ -1,8 +1,9 @@
-file=open("Secondmuscles","r")
+file=open("Mree","r")
 X=file.readlines()
 s=""
 for i in range(len(X)):
  s=s+X[i].strip()
-print s
 
+
+print s
 #print X
