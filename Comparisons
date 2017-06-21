@@ -3,7 +3,12 @@ X=file.readlines()
 s=""
 for i in range(len(X)):
  s=s+X[i].strip()
+words=s.split()
+#print words[0]
+A=words[0]
+B=words[1]
+C=words[2]
+D=words[3]
 
 
-print s
 #print X
