@@ -1,0 +1,17 @@
+X="Betty Botter had some butter but she said this butter's bitter if I bake this bitter butter it would make my batter bitter but a bit of better butter that would make my batter better so she bought a bit of butter better than her bitter butter and she baked it in her batter and the batter was not bitter so 'twas better Betty Botter bought a bit of better butter"
+word=X.split()
+
+Dictionary={}
+
+for words in word:
+ if words in Dictionary:
+  Dictionary[words]+=1
+ else:
+  Dictionary[words]=1
+
+
+for i in Dictionary:
+ print i,
+ print Dictionary[i]
+# print words
+  
