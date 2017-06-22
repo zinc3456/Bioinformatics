@@ -1,0 +1,25 @@
+FILE=open("/share/data/loginfo","r")
+
+
+Y=FILE.readlines()
+#print Y
+user={}
+for i in range(len(Y)):
+  X=Y[i].strip()
+  word=X.split()
+  user[word[0]]=word[1]
+print user
+X=word[2] in user.keys()
+print X
+
+
+#Dictionary={}
+#Dictionary[word[0]]=word[1]
+#for words in word:
+ #if words in Dictionary:
+ # Dictionary[words]+=1
+ #else:
+  #Dictionary[words]=1
+
+
+# print words

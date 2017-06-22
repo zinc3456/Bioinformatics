@@ -1,10 +1,18 @@
 X=open("/share/data/loginfo","r")
+
+
 LOGIN=X.readlines()
+
+S=""
+for i in range(len(LOGIN)):
+ S=S+LOGIN[i]
+S=S.strip()
+#print S
 user={}
-words=LOGIN
-for i in range(len(LOGIN)): 
-  user[i]=words[i]
-print user,
+words=S
+for j in range(len(S)): 
+  user[j]=words[j]
+print user
 
 login = raw_input("Login: ")
 passwd = raw_input("Password: ")
