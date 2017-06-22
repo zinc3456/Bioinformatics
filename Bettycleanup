@@ -1,0 +1,8 @@
+import re
+X=open("Betty","r")
+Z=X.readlines()
+s=""
+for i in range(len(Z)):
+ s=s+Z[i]
+Y=re.sub("\W"," ",s)
+print Y,

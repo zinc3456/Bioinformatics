@@ -1,0 +1,12 @@
+X="ATGACTACTA"[::-1]
+
+REVERSE={}
+REVERSE['A']="T"
+REVERSE['T']="A"
+REVERSE['G']="C"
+REVERSE['C']="G"
+       
+for i in range(len(X)):
+  if (i%1==0):
+   print REVERSE[X[i]],
+   

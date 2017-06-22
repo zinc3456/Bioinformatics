@@ -1,0 +1,10 @@
+import re
+S="ATGACTGA"[::-1]
+S=re.sub("A","X",S)
+S=re.sub("T","A",S)
+S=re.sub("X","T",S)
+S=re.sub("G","Y",S)
+S=re.sub("C","G",S)
+S=re.sub("Y","C",S)
+
+print S

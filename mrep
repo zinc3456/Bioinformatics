@@ -1,0 +1,4 @@
+X="If I got to 123 Devon Lane Rm 1229"
+import re
+X=re.sub("\d","",X)
+print X

@@ -1,25 +1,17 @@
 X=open("/share/data/loginfo","r")
 LOGIN=X.readlines()
-s=""
-for i in range(len(LOGIN)):
- s=s+LOGIN[i]
-#print s
-words=s.split()
 user={}
-user[words[0]]=words[1]
-user[words[2]]=words[3]
-user[words[4]]=words[5]
-user[words[6]]=words[7]
-user[words[8]]=words[9]
-user[words[10]]=words[11]
-X=words[2] in user.keys()
-print X
+words=LOGIN
+for i in range(len(LOGIN)): 
+  user[i]=words[i]
+print user,
+
 login = raw_input("Login: ")
 passwd = raw_input("Password: ")
 
-if (login==True):
- print "Login Successful"
-else:
- print "Login Failed"
+#if (login==):
+# print "Login Successful"
+#else:
+# print "Login Failed"
 
 
