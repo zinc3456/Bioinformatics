@@ -1,0 +1,9 @@
+X=open("FlightID","r")
+
+ID=X.readlines()
+destination={}
+for i in range(len(ID)):
+ S=ID[i].strip()
+ word=S.split()
+ destination[word[0]]=word[1]
+print destination
