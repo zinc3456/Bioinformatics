@@ -1,0 +1,49 @@
+#Problem 1:
+
+width=float(raw_input("Width: "))
+length=float(raw_input("Length: "))
+
+print width*length
+
+#Problem 2:
+
+#STATE={}
+#STATE['Alabama']="AL"
+#STATE['Alaska']="AK"
+#STATE['Arizona']="AZ"
+#STATE['Arkansas']="AR"
+#STATE['California']="CA"
+#STATE['Colorado']="CO"
+#STATE['Conneticut']="CT"
+#STATE['Delaware']="DE"
+#STATE['Florida']="FL"
+#STATE['Georgia']="GA"
+#STATE['Hawaii']="HI"
+#STATE['Idaho']="ID"
+#STATE['Illinois']="IL"
+#STATE['Indiana']="IN"
+#STATE['Iowa']="IA"
+#STATE['Kansas']="KS"
+#STATE['Kentucky']="KY"
+#STATE['Louisiana']="LA"
+#STATE['Maine']="ME"
+#STATE['Maryland']="MD"
+#STATE['Massachusetts']="MA"
+#STATE['Michigan']="MI"
+#STATE['Minnesota']="MN"
+#STATE['Mississippi']="MS"
+#STATE['Missouri']="MO"
+#STATE['Montana']="MT"
+#STATE['Nebraska']="NE"
+#STATE['Nevada']="NV"
+#STATE['New Hampshire']="NH"
+#STATE['New Jersey']="NJ"
+#STATE['New Mexico']="NM"
+#STATE['New York']="NY"
+#STATE['North Carolina']="NC"
+#STATE['North Dakota']="ND"
+#STATE['Ohio']="OH"
+#print STATE[raw_input("Input State: ")]
+
+
+

@@ -1,0 +1,11 @@
+#Problem 3:
+#print ZIP[raw_input("City Name: ")]
+X=open("/share/data/zipcodes.csv","r")
+ZIP=X.readlines()
+city={}
+for i in range(len(ZIP)):
+ S=ZIP[i].strip()
+ word=S.split()
+ city[word[0]]=word[1]
+#print city
+print city[raw_input("Zipcode: ")]

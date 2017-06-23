@@ -1,0 +1,17 @@
+X=open("FlightID","r")
+
+ID=X.readlines()
+destination={}
+for i in range(len(ID)):
+ S=ID[i].strip()
+ word=S.split()
+ destination[word[0]]=word[1],word[2]
+#print destination
+
+print destination[raw_input("Flight ID: ")]
+
+response=raw_input("Would you like to search again? ")
+if (response=="Yes"):
+ print destination[raw_input("Flight ID: ")]
+else:
+ print "Search ended"
